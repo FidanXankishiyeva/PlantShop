@@ -1,0 +1,394 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+.container #home-page {
+  width: 100%;
+  min-height: 100vh;
+  background-image: url("../assets/img/living-room.png");
+  background-size: 100% 100%;
+}
+.container #home-page nav {
+  width: 100%;
+  padding: 40px 119px 81px 597px;
+  display: flex;
+  justify-content: space-between;
+}
+.container #home-page nav ul {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+}
+.container #home-page nav ul li:first-child a {
+  text-align: center;
+  font-family: "Work Sans";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  background: var(--gradient2, linear-gradient(90deg, #2af598 0%, #009efd 100%));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.container #home-page nav ul li a {
+  color: #fff;
+  text-align: center;
+  font-family: "Work Sans";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.container #home-page h1 {
+  margin-bottom: 24px;
+  color: #fff;
+  text-align: center;
+  font-family: "Work Sans";
+  font-size: 82px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.container #home-page p {
+  margin-bottom: 42px;
+  color: #fff;
+  text-align: center;
+  font-family: "Work Sans";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+.container #home-page form {
+  display: flex;
+  justify-content: center;
+}
+.container #home-page form input {
+  width: 463px;
+  padding: 24px 70px 24px 30px;
+  border-radius: 50px;
+  border: 1px solid #fff;
+  background: rgba(255, 255, 255, 0.2);
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+}
+.container #home-page form input::-moz-placeholder {
+  color: #fff;
+  font-family: "Work Sans";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.container #home-page form input::placeholder {
+  color: #fff;
+  font-family: "Work Sans";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.container #home-page form img {
+  margin-left: -60px;
+  z-index: 1;
+}
+.container #bestseller-page {
+  width: 100%;
+  padding: 100px 120px 182px 121px;
+}
+.container #bestseller-page .about {
+  display: flex;
+  justify-content: space-between;
+}
+.container #bestseller-page .about li {
+  display: flex;
+  align-items: center;
+}
+.container #bestseller-page .about li .text-box {
+  margin-left: 24px;
+}
+.container #bestseller-page .about li .text-box h1 {
+  margin-bottom: 16px;
+  color: var(--font, #081323);
+  font-family: "Work Sans";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.container #bestseller-page .about li .text-box p {
+  color: var(--Gray-3, #828282);
+  font-family: "Work Sans";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.container #bestseller-page .product-box {
+  display: flex;
+  align-items: center;
+  margin-top: 145px;
+}
+.container #bestseller-page .product-box .collection h2 {
+  margin-bottom: 42px;
+  color: var(--font, #081323);
+  font-family: "Work Sans";
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.container #bestseller-page .product-box .collection button {
+  display: flex;
+  align-items: center;
+  background: none;
+}
+.container #bestseller-page .product-box .collection button a {
+  color: var(--Gray-2, #4f4f4f);
+  font-family: "Work Sans";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.container #bestseller-page .product-box .bestseller-price {
+  display: flex;
+  justify-content: space-between;
+}
+.container #bestseller-page .product-box .bestseller-price li {
+  width: 30%;
+  border-radius: 50px;
+  background: #c1d0e4;
+}
+.container #bestseller-page .product-box .bestseller-price li .about-price {
+  height: 260.725px;
+  padding: 26px 38px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  border-radius: 50px;
+  background: #fff;
+}
+.container #bestseller-page .product-box .bestseller-price li .about-price .plant-name h3 {
+  margin-bottom: 7px;
+  color: var(--font, #081323);
+  text-align: center;
+  font-family: "Work Sans";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.container #bestseller-page .product-box .bestseller-price li .about-price .price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-self: stretch;
+}
+.container #bestseller-page .product-box .bestseller-price li .about-price .price p {
+  color: var(--font, #081323);
+  font-family: "Work Sans";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.container #plant-reference-page {
+  width: 100%;
+  padding: 0 18px 209px 15px;
+}
+.container #plant-reference-page h1 {
+  text-align: center;
+  color: var(--font, #081323);
+  font-family: "Work Sans";
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.container #plant-reference-page p {
+  text-align: center;
+  color: var(--Gray-2, #4f4f4f);
+  font-family: "Work Sans";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.container #plant-reference-page .plant-img {
+  display: flex;
+  justify-content: space-between;
+}
+.container #plant-reference-page .plant-img .left-img .position-box {
+  position: relative;
+}
+.container #plant-reference-page .plant-img .left-img .position-box img {
+  margin-bottom: 32px;
+}
+.container #plant-reference-page .plant-img .left-img .position-box a {
+  color: #fff;
+  font-family: "Work Sans";
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  position: absolute;
+  left: 192px;
+  bottom: 214px;
+}
+.container #care-for-plants {
+  width: 100%;
+  padding: 0 80px 209px 127px;
+  display: flex;
+  justify-content: space-between;
+}
+.container #care-for-plants .left-text h1 {
+  margin-bottom: 28px;
+  color: var(--font, #081323);
+  font-family: "Work Sans";
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.container #care-for-plants .left-text p {
+  color: var(--Gray-2, #4f4f4f);
+  font-family: "Work Sans";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.container #care-for-plants .left-text ul {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+  margin-top: 82px;
+}
+.container #care-for-plants .left-text ul li {
+  display: flex;
+  align-items: center;
+}
+.container #care-for-plants .left-text ul li .rules-for-care {
+  margin-left: 24px;
+}
+.container #care-for-plants .left-text ul li .rules-for-care h2 {
+  margin-bottom: 8px;
+  color: #000;
+  font-family: "Work Sans";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.container #care-for-plants .left-text ul li .rules-for-care p {
+  color: var(--Gray-2, #4f4f4f);
+  font-family: "Work Sans";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.container #menu-page {
+  width: 100%;
+  padding: 120px 97px;
+  background: linear-gradient(94deg, #566270 0.51%, #283444 100%);
+}
+.container #menu-page .menu-box {
+  display: flex;
+  justify-content: space-between;
+}
+.container #menu-page .menu-box .form-box h1 {
+  margin-bottom: 25px;
+  color: #fff;
+  font-family: "Work Sans";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.container #menu-page .menu-box .form-box form input {
+  width: 463px;
+  padding: 24px 30px;
+  border-radius: 50px;
+  border: 1px solid #fff;
+  background: rgba(255, 255, 255, 0.2);
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+}
+.container #menu-page .menu-box .form-box form input::-moz-placeholder {
+  color: #fff;
+  font-family: "Work Sans";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.container #menu-page .menu-box .form-box form input::placeholder {
+  color: #fff;
+  font-family: "Work Sans";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.container #menu-page .menu-box .form-box form button {
+  padding: 12px 24px;
+  border-radius: 50px;
+  background: var(--gradient2, linear-gradient(90deg, #2af598 0%, #009efd 100%));
+  color: #fff;
+  text-align: center;
+  font-family: "Work Sans";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.container #menu-page .menu-box ul {
+  display: flex;
+}
+.container #menu-page .menu-box ul li {
+  display: flex;
+  flex-direction: column;
+}
+.container #menu-page .menu-box ul li h2 {
+  margin-bottom: 33px;
+  color: #fff;
+  font-family: "Work Sans";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+}
+.container #menu-page .menu-box ul li a {
+  margin-bottom: 16px;
+  color: #fff;
+  font-family: "Work Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+}
+.container #menu-page .menu-box ul li p {
+  margin-bottom: 16px;
+  color: #fff;
+  font-family: "Work Sans";
+  font-size: 16.823px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+}
+.container #menu-page hr {
+  margin-top: 52px;
+  margin-bottom: 52px;
+  background: #fff;
+}
+.container #menu-page .copyright {
+  text-align: center;
+  color: #fff;
+  font-family: "Work Sans";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}/*# sourceMappingURL=index.css.map */

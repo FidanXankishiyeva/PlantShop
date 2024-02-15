@@ -1,0 +1,415 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+.container {
+  #home-page {
+    width: 100%;
+    min-height: 100vh;
+    background-image: url("../assets/img/living-room.png");
+    background-size: 100% 100%;
+    nav {
+      width: 100%;
+      padding: 40px 119px 81px 597px;
+      display: flex;
+      justify-content: space-between;
+      ul {
+        width: 50%;
+        display: flex;
+        justify-content: space-between;
+        li {
+          &:first-child {
+            a {
+              text-align: center;
+              font-family: "Work Sans";
+              font-size: 24px;
+              font-style: normal;
+              font-weight: 600;
+              line-height: normal;
+              background: var(
+                --gradient2,
+                linear-gradient(90deg, #2af598 0%, #009efd 100%)
+              );
+              background-clip: text;
+              -webkit-background-clip: text;
+              -webkit-text-fill-color: transparent;
+            }
+          }
+          a {
+            color: #fff;
+            text-align: center;
+            font-family: "Work Sans";
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+          }
+        }
+      }
+    }
+
+    h1 {
+      margin-bottom: 24px;
+      color: #fff;
+      text-align: center;
+      font-family: "Work Sans";
+      font-size: 82px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+    }
+
+    p {
+      margin-bottom: 42px;
+      color: #fff;
+      text-align: center;
+      font-family: "Work Sans";
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 150%;
+    }
+
+    form {
+      display: flex;
+      justify-content: center;
+      input {
+        width: 463px;
+        padding: 24px 70px 24px 30px;
+        border-radius: 50px;
+        border: 1px solid #fff;
+        background: rgba(255, 255, 255, 0.2);
+        backdrop-filter: blur(10px);
+        &::placeholder {
+          color: #fff;
+          font-family: "Work Sans";
+          font-size: 20px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: normal;
+        }
+      }
+      img {
+        margin-left: -60px;
+        z-index: 1;
+      }
+    }
+  }
+
+  #bestseller-page {
+    width: 100%;
+    padding: 100px 120px 182px 121px;
+    .about {
+      display: flex;
+      justify-content: space-between;
+      li {
+        display: flex;
+        align-items: center;
+        .text-box {
+          margin-left: 24px;
+          h1 {
+            margin-bottom: 16px;
+            color: var(--font, #081323);
+            font-family: "Work Sans";
+            font-size: 32px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+          }
+
+          p {
+            color: var(--Gray-3, #828282);
+            font-family: "Work Sans";
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+          }
+        }
+      }
+    }
+
+    .product-box {
+      display: flex;
+      align-items: center;
+      margin-top: 145px;
+      .collection {
+        h2 {
+          margin-bottom: 42px;
+          color: var(--font, #081323);
+          font-family: "Work Sans";
+          font-size: 64px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: normal;
+        }
+        button {
+          display: flex;
+          align-items: center;
+          background: none;
+          a {
+            color: var(--Gray-2, #4f4f4f);
+            font-family: "Work Sans";
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+          }
+        }
+      }
+
+      .bestseller-price {
+        display: flex;
+        justify-content: space-between;
+        li {
+          width: 30%;
+          border-radius: 50px;
+          background: #c1d0e4;
+          .about-price {
+            height: 260.725px;
+            padding: 26px 38px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: flex-start;
+            border-radius: 50px;
+            background: #fff;
+            .plant-name {
+              h3 {
+                margin-bottom: 7px;
+                color: var(--font, #081323);
+                text-align: center;
+                font-family: "Work Sans";
+                font-size: 32px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+              }
+            }
+            .price {
+              display: flex;
+              justify-content: space-between;
+              align-items: center;
+              align-self: stretch;
+              p {
+                color: var(--font, #081323);
+                font-family: "Work Sans";
+                font-size: 32px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  #plant-reference-page {
+    width: 100%;
+    padding: 0 18px 209px 15px;
+    h1 {
+      text-align: center;
+      color: var(--font, #081323);
+      font-family: "Work Sans";
+      font-size: 64px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+    }
+    p {
+      text-align: center;
+      color: var(--Gray-2, #4f4f4f);
+      font-family: "Work Sans";
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+    }
+
+    .plant-img {
+      display: flex;
+      justify-content: space-between;
+      .left-img {
+        .position-box {
+          position: relative;
+          img {
+            margin-bottom: 32px;
+          }
+          a {
+            color: #fff;
+            font-family: "Work Sans";
+            font-size: 64px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+            position: absolute;
+            left: 192px;
+            bottom: 214px;
+          }
+        }
+      }
+    }
+  }
+
+  #care-for-plants {
+    width: 100%;
+    padding: 0 80px 209px 127px;
+    display: flex;
+    justify-content: space-between;
+    .left-text {
+      h1 {
+        margin-bottom: 28px;
+        color: var(--font, #081323);
+        font-family: "Work Sans";
+        font-size: 64px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+      }
+
+      p {
+        color: var(--Gray-2, #4f4f4f);
+        font-family: "Work Sans";
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+      }
+
+      ul {
+        display: inline-flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 32px;
+        margin-top: 82px;
+        li {
+          display: flex;
+          align-items: center;
+          .rules-for-care {
+            margin-left: 24px;
+            h2 {
+              margin-bottom: 8px;
+              color: #000;
+              font-family: "Work Sans";
+              font-size: 32px;
+              font-style: normal;
+              font-weight: 500;
+              line-height: normal;
+            }
+            p {
+              color: var(--Gray-2, #4f4f4f);
+              font-family: "Work Sans";
+              font-size: 20px;
+              font-style: normal;
+              font-weight: 400;
+              line-height: normal;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  #menu-page {
+    width: 100%;
+    padding: 120px 97px;
+    background: linear-gradient(94deg, #566270 0.51%, #283444 100%);
+    .menu-box {
+      display: flex;
+      justify-content: space-between;
+      .form-box {
+        h1 {
+          margin-bottom: 25px;
+          color: #fff;
+          font-family: "Work Sans";
+          font-size: 48px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: normal;
+        }
+        form {
+          input {
+            width: 463px;
+            padding: 24px 30px;
+            border-radius: 50px;
+            border: 1px solid #fff;
+            background: rgba(255, 255, 255, 0.2);
+            backdrop-filter: blur(10px);
+            &::placeholder {
+              color: #fff;
+              font-family: "Work Sans";
+              font-size: 20px;
+              font-style: normal;
+              font-weight: 400;
+              line-height: normal;
+            }
+          }
+
+          button {
+            padding: 12px 24px;
+            border-radius: 50px;
+            background: var(
+              --gradient2,
+              linear-gradient(90deg, #2af598 0%, #009efd 100%)
+            );
+            color: #fff;
+            text-align: center;
+            font-family: "Work Sans";
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+          }
+        }
+      }
+
+      ul {
+        display: flex;
+        li {
+          display: flex;
+          flex-direction: column;
+          h2 {
+            margin-bottom: 33px;
+            color: #fff;
+            font-family: "Work Sans";
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 140%;
+          }
+          a {
+            margin-bottom: 16px;
+            color: #fff;
+            font-family: "Work Sans";
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 150%;
+          }
+          p {
+            margin-bottom: 16px;
+            color: #fff;
+            font-family: "Work Sans";
+            font-size: 16.823px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 150%;
+          }
+        }
+      }
+    }
+    hr {
+      margin-top: 52px;
+      margin-bottom: 52px;
+      background: #fff;
+    }
+    .copyright {
+      text-align: center;
+      color: #fff;
+      font-family: "Work Sans";
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+    }
+  }
+}
